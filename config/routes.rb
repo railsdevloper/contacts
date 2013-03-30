@@ -1,4 +1,6 @@
 Contacts::Application.routes.draw do
+  get "contacts/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
